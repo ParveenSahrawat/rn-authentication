@@ -1,0 +1,67 @@
+Arguments: 
+  /home/parveen/.nvm/versions/node/v12.16.2/bin/node /home/parveen/.yarn/bin/yarn.js install --save
+
+PATH: 
+  /home/parveen/.nvm/versions/node/v12.16.2/bin:/home/parveen/.yarn/bin:/home/parveen/.config/yarn/global/node_modules/.bin:/home/parveen/.yarn/bin:/home/parveen/.config/yarn/global/node_modules/.bin:/home/parveen/.local/bin:/home/parveen/.yarn/bin:/home/parveen/.config/yarn/global/node_modules/.bin:/home/parveen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: http://npm.tik.co/metro-babel7-plugin-react-transform/-/metro-babel7-plugin-react-transform-0.51.0.tgz: Request failed "500 Internal Server Error"
+      at ResponseError.ExtendableBuiltin (/home/parveen/.yarn/lib/cli.js:696:66)
+      at new ResponseError (/home/parveen/.yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/home/parveen/.yarn/lib/cli.js:67017:16)
+      at Request.emit (events.js:310:20)
+      at Request.module.exports.Request.onRequestResponse (/home/parveen/.yarn/lib/cli.js:141542:10)
+      at ClientRequest.emit (events.js:310:20)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:603:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17)
+      at Socket.socketOnData (_http_client.js:476:22)
+      at Socket.emit (events.js:310:20)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "^10.0.3",
+      "expo": "^34.0.0",
+      "expo-linear-gradient": "^6.0.0",
+      "moment": "^2.24.0",
+      "react": "16.8.3",
+      "react-dom": "^16.8.6",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+      "react-native-web": "^0.11.4",
+      "react-navigation": "^3.11.1",
+      "react-native-gesture-handler": "^1.3.0",
+      "react-native-reanimated": "^1.1.0",
+      "react-navigation-header-buttons": "^3.0.1",
+      "react-redux": "^7.1.0",
+      "redux": "^4.0.4",
+      "redux-thunk": "^2.3.0"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.1.1",
+      "redux-devtools-extension": "^2.13.8"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
